@@ -1,3 +1,3 @@
 output "ami" {
-  value = module.fetching.ami
+  value = module.velitheda-fetching.ami
 }
