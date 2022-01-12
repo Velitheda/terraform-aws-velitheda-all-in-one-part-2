@@ -3,5 +3,5 @@ variable "region" {
 }
 
 variable "availability-zone" {
-    default = "us-east-1a"
+  default = "us-east-2a"
 }
