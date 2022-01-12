@@ -17,3 +17,12 @@ data "aws_ami" "ubuntu" {
 
   owners = ["099720109477"]
 }
+
+resource "aws_instance" "web_server_02_jasmine" {
+  ami           = data.aws_ami.ubuntu.id
+  instance_type = "t2.micro"
+
+    tags = {
+    Name = "web-server-02-jasmine"
+  }
+}
