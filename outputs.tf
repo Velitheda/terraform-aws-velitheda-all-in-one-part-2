@@ -1,3 +1,3 @@
 output "ami" {
-  value = data.aws_ami.ubuntu.id
+  value = module.fetching.ami
 }

@@ -4,4 +4,5 @@ variable "region" {
 
 variable "availability-zone" {
   default = "us-east-2a"
+  type = string
 }
